@@ -1,8 +1,61 @@
-/* this style keeps the Gulp logo from taking over the whole page. Adjust if needed to size correctly for your page. */
 
 .navbar-brand img{
     max-width: 150px;
     height: 100%;
   }
+.navlink:hover{
+  text-decoration: underline;
+} 
 
+h1, h2, h3, h4{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
 
+h1{
+  font-size: xx-large;
+}
+
+h2{
+  font-size: medium;
+}
+
+p, nav{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+body {
+    width: 100%;
+}
+
+article{
+  padding: 120px 60px 120px 60px;
+  height: fit-content;
+  align-content: center;
+}
+
+.product-img{
+  max-height: 350px;
+  border-radius: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+  .product-img{
+    max-width: 250px;
+    margin-bottom: 50px;
+  }
+  article{
+    padding: 90px 30px 90px 30px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1050px){
+  .product-img{
+    max-width: 300px;
+    margin-bottom: 50px;
+  }
+  article{
+    padding: 90px 30px 90px 30px;
+  }
+}
