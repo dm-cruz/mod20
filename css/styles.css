@@ -40,6 +40,13 @@ article{
   border-radius: 8px;
 }
 
+.card{
+  transition: all;
+}
+.card:hover{
+  transform: scale(1.10);
+}
+
 @media only screen and (max-width: 600px) {
   .product-img{
     max-width: 250px;
@@ -47,6 +54,15 @@ article{
   }
   article{
     padding: 90px 30px 90px 30px;
+  }
+
+  .card{
+    max-width: 300px;
+    margin-bottom: 50px;
+  }
+  
+  .card:hover{
+    transform: scale(1);
   }
 }
 
